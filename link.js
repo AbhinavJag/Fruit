@@ -1,5 +1,5 @@
 class Link{
-    condtructor(bodyA, bodyB){
+    constructor(bodyA, bodyB){
         var lastLink = bodyA.body.bodies.length-2
         this.link = Matter.Constraint.create({
             bodyA: bodyA.body.bodies[lastLink],
